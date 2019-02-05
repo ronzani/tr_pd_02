@@ -14,8 +14,8 @@ void imprime_matriz(int **m, int tam){
 }
 
 
-int main(int argc , char *argv[])
-{
+int main(int argc , char *argv[]){
+	
 	int tam = atoi(argv[1]);
 	int size,rank,sum=0,i,j,k;
 	int **a, **b, **c;
